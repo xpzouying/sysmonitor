@@ -1,0 +1,12 @@
+SysMonitor:
+  interval: 1  # 1s
+
+Alarm:
+  type: weixin
+  send_api: http://localhost:18888/send_msg
+  towx: 1234567890@chatroom  # hub.haha.ai
+
+
+AlarmRules:
+  CPU: 50
+  Mem: 80
